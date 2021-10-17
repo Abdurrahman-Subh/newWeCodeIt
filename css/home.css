@@ -635,9 +635,9 @@
     width: 100%;
   }
 }
-@media (max-width: 468px) {
+@media (device-aspect-ratio: 375/667) {
   .heroBanner {
-    height: 250vh;
+    height: 170vh;
   }
 }
 
