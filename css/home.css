@@ -1,8 +1,8 @@
 /* header */
 /*Root Things*/
 :root {
-  --spacer: 87rem;
-  --littleSpace: 10rem;
+  --spacer: 80rem;
+  --littleSpace: 8rem;
 }
 .litFlow {
   margin-top: var(--littleSpace);
