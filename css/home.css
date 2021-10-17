@@ -623,16 +623,15 @@
     width: 100%;
     justify-content: center;
     align-items: center;
+    order: 1;
+    height: 30%;
+    padding: 20px;
   }
   .rightAbout img {
     width: 80%;
   }
   .leftBanner p {
     width: 100%;
-  }
-  .rightBanner {
-    order: 1;
-    height: 30%;
   }
   .leftBanner {
     order: 2;
