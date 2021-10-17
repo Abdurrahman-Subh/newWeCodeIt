@@ -561,7 +561,7 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 568px) {
   .galleryPro {
     grid-template-columns: repeat(3, 1fr);
   }
@@ -614,7 +614,7 @@
   }
   .heroBanner {
     flex-direction: column;
-    height: 150vh;
+    height: 120vh;
   }
   .leftBanner {
     width: 100%;
@@ -633,6 +633,11 @@
   }
   .leftBanner p {
     width: 100%;
+  }
+}
+@media (max-width: 368px) {
+  .heroBanner {
+    height: 150vh;
   }
 }
 
