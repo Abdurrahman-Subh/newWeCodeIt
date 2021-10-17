@@ -23,7 +23,7 @@ hamburger_menu.addEventListener("click", () => {
     ul.style.display = "flex";
   } else {
     links.style.backgroundColor = "initial";
-    links.style.height = "14vh";
+    links.style.height = "16vh";
     ul.style.display = "none";
   }
   var x = window.matchMedia("(max-width: 568px)");
