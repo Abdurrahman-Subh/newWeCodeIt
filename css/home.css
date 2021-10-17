@@ -2,6 +2,7 @@
 :root {
   --spacer: 80rem;
   --littleSpace: 8rem;
+  --rem20: 20rem;
 }
 .litFlow {
   margin-top: var(--littleSpace);
@@ -607,6 +608,34 @@
     display: flex;
     flex-direction: column;
     gap: 2rem;
+  }
+  .rem20 {
+    margin-top: var(--rem20);
+  }
+  .heroBanner {
+    flex-direction: column;
+    height: 200vh;
+  }
+  .leftBanner {
+    width: 100%;
+  }
+  .rightBanner {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .rightAbout img {
+    width: 80%;
+  }
+  .leftBanner p {
+    width: 100%;
+  }
+  .rightBanner {
+    order: 1;
+    height: 30%;
+  }
+  .leftBanner {
+    order: 2;
   }
 }
 
