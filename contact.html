@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>İletişim | We Code It software & web Design company</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/contact.css" />
+    <link rel="shortcut icon" href="image/LOGO.png" type="image/x-icon" />
+    <!--هون-->
+    <meta
+      name="description"
+      content="we provide the best services for web development, search engine optimization (SEO) and logo design"
+    />
+  </head>
+  <body>
+    <!--..................Navbar Start..................-->
+    <div class="containerM">
+      <div class="navbarM">
+        <div class="menuM">
+          <a href="index.html">
+            <h3 class="logoM">
+              <img src="/image/LOGO.png" alt="" /><span>We-Code IT</span>
+            </h3></a
+          >
+          <div class="hamburger-menuM">
+            <div class="barM"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="linksM">
+        <ul class="linksMUl">
+          <li>
+            <a href="index.html" style="--i: 0.05s"
+              ><i class="fas fa-home"></i> Ana-Sayfa</a
+            >
+          </li>
+          <li>
+            <a href="services.html" style="--i: 0.1s"
+              ><i class="fas fa-hands-helping"></i> Hizmetlerimiz</a
+            >
+          </li>
+
+          <!-- <li>
+            <a href="#" style="--i: 0.2s;">Testimonials</a>
+          </li> -->
+          <li>
+            <a href="about.html" style="--i: 0.25s"
+              ><i class="fas fa-user-friends"></i> Hakkkımızda</a
+            >
+          </li>
+          <li>
+            <a href="contact.html" style="--i: 0.3s"
+              ><i class="fas fa-phone"></i> İletişim</a
+            >
+          </li>
+          <li>
+            <a href="indexEN.html" style="--i: 0.3s"
+              ><i class="fas fa-language fa-2x"></i> English</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!--..................Navbar END..................-->
+    <div class="contact-container">
+      <span class="big-circle"></span>
+      <img src="/image/shape.png" class="square" />
+      <div class="form">
+        <div class="contact-info">
+          <h1 class="title">Bize Ulaş</h1>
+          <p class="text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+            dolorum adipisci recusandae praesentium dicta!
+          </p>
+
+          <div class="info">
+            <div class="information">
+              <img src="/image/email.png" class="icon" alt="Contact us email" />
+              <p>info@we-codeit.com</p>
+            </div>
+            <div class="information">
+              <img src="/image/phone.png" class="icon" alt="Contact us phone" />
+              <p>+90 505 047 32 75</p>
+            </div>
+          </div>
+
+          <div class="social-media">
+            <p>Bize Bağlan :</p>
+            <div class="social-icons">
+              <a href="https://www.facebook.com/WeCodeiT.WebDesigner/">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="https://twitter.com/WeCodeIT1">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a
+                href="https://www.instagram.com/wecodeit.webdesign/?fbclid=IwAR3fqAAGibvm1cUczsc9jEoJZI4VcUEpabva2b6y06nR8VjWeDL2-q0rD0c"
+              >
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="https://tr.linkedin.com/in/we-code-it-369123216">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form">
+          <span class="circle one"></span>
+          <span class="circle two"></span>
+
+          <form
+            action="contact.html"
+            autocomplete="off"
+            id="form"
+            class="contactpage-form"
+          >
+            <h3 class="title">Bize Ulaş</h3>
+            <div class="input-container">
+              <input
+                type="text"
+                name="name"
+                class="input"
+                id="name"
+                onkeypress="return /[a-z]/i.test(event.key)"
+              />
+              <label for="">Ad</label>
+              <span>Ad</span>
+            </div>
+            <div class="input-container">
+              <input
+                type="text"
+                name="name"
+                class="input"
+                id="name"
+                onkeypress="return /[a-z]/i.test(event.key)"
+              />
+              <label for="">Soyad</label>
+              <span>Soyad</span>
+            </div>
+            <div class="input-container">
+              <input type="email" name="email" class="input" id="mail" />
+              <label for="">Mail</label>
+              <span>Mail</span>
+            </div>
+            <div class="input-container">
+              <input
+                type="tel"
+                name="phone"
+                class="input"
+                id="phone"
+                oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1');"
+              />
+              <label for="">Telefon Numarsı</label>
+              <span>Telefon Numarsı</span>
+            </div>
+            <div class="input-container textarea">
+              <textarea id="message" name="message" class="input"></textarea>
+              <label for="">Mesaj</label>
+              <span>Mesaj</span>
+            </div>
+            <input type="submit" value="Gönder" class="btn" />
+            <p
+              id="er"
+              style="
+                display: flex;
+                justify-content: center;
+                color: #000000;
+                font-weight: 500;
+                font-size: 1.2rem;
+              "
+            ></p>
+            <p
+              id="er2"
+              style="
+                display: flex;
+                justify-content: center;
+                color: #000000;
+                font-weight: 500;
+                font-size: 1.2rem;
+              "
+            ></p>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!--PHP FORM Start-->
+    <!-- <?php
+    ini_set('display_errors', 1);
+    error_reporting( E_ALL);
+    if(isset($_POST['submit'])){
+		$firstname=$_POST['firstname'];
+		$lastname=$_POST['lastname'];
+		$email=$_POST['email'];
+		$phone=$_POST['phone'];
+		$msg=$_POST['msg'];
+		if(isset($_POST['title']) && !empty($_POST['title'])){
+		    die();
+		}
+		    
+		
+    $from = $email ;
+    $to = "wecodeit.imagineit@gmail.com";
+    
+    $subject='Form Submission';
+    $message="Name :".$firstname." ".$lastname."\n"."Phone :".$phone."\n" ."Wrote the following :"."\n\n".$msg."\n\n"."WE CODE IT CONTACT FORM";
+    $headers = "From: $from \r\n";
+    
+    mail($to, $subject, $message, $headers);
+    echo "<script>alert('Contact form has been submitted! we will contact you shortly');</script>";
+    echo "<script>document.location='تواصل معنا';</script>";
+    }
+    
+?>  -->
+    <!--PHP FORM End-->
+    <!--..................Footer..................-->
+    <footer class="text-center Socialmedia-icons">
+      <!-- Grid container -->
+      <div class="container p-4">
+        <section class="mb-4">
+          <!-- Facebook -->
+          <a
+            class="btn btn-outline-light btn-floating m-1"
+            href="#!"
+            role="button"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+
+          <!-- Twitter -->
+          <a
+            class="btn btn-outline-light btn-floating m-1"
+            href="#!"
+            role="button"
+            ><i class="fab fa-twitter"></i
+          ></a>
+
+          <!-- Instagram -->
+          <a
+            class="btn btn-outline-light btn-floating m-1"
+            href="#!"
+            role="button"
+            ><i class="fab fa-instagram"></i
+          ></a>
+
+          <!-- Linkedin -->
+          <a
+            class="btn btn-outline-light btn-floating m-1"
+            href="#!"
+            role="button"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+        </section>
+        <!-- Section: Social media -->
+
+        <!-- Section: Form -->
+        <section class="jus">
+          <a href="https://we-codeit.com/" class="navbar-brand"
+            ><img
+              src="image/LOGO.png"
+              alt="WE CODE IT software & web Design company"
+            /><b>WE CODE IT</b></a
+          >
+        </section>
+        <!-- Section: Form -->
+
+        <!-- Section: Text -->
+        <section class="mb-4">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
+            distinctio earum repellat quaerat voluptatibus placeat nam, commodi
+            optio pariatur est quia magnam eum harum corrupti dicta, aliquam
+            sequi voluptate quas.
+          </p>
+        </section>
+        <!-- Section: Text -->
+
+        <!-- Section: Links -->
+        <section class="">
+          <!--Grid row-->
+          <div style="justify-content: center" class="row">
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase">Support</h5>
+
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="https://we-codeit.com/" class="Socialmedia-icons"
+                    >Ana-Sayfa</a
+                  >
+                </li>
+                <li>
+                  <a href="services" class="Socialmedia-icons">Hizmetlerimiz</a>
+                </li>
+                <li>
+                  <a href="about" class="Socialmedia-icons">Hakkımızda</a>
+                </li>
+                <li>
+                  <a href="contact" class="Socialmedia-icons">İletişim</a>
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase">Links</h5>
+
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="#services" class="Socialmedia-icons">Our Services</a>
+                </li>
+                <li>
+                  <a href="#about" class="Socialmedia-icons">About Us</a>
+                </li>
+                <li>
+                  <a href="#latest" class="Socialmedia-icons">Latest Works</a>
+                </li>
+                <li>
+                  <a href="#pricing" class="Socialmedia-icons">Pricing</a>
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase">Contact Us</h5>
+
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a
+                    class="Socialmedia-icons"
+                    href="https://wa.me/+905388817072"
+                    target="_blank"
+                    >Abdurrahman:<br /><i class="fab fa-whatsapp"></i> +90 538
+                    881 70 72</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="Socialmedia-icons"
+                    href="https://wa.me/+905050473275"
+                    target="_blank"
+                    >Nazir:<br /><i class="fab fa-whatsapp"></i> +90 553 930 95
+                    06</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+        </section>
+        <!-- Section: Links -->
+      </div>
+      <!-- Grid container -->
+
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+        © 2021 Copyright:
+        <a class="Socialmedia-icons" href="https://we-codeit.com/"
+          >We-Codeit.com</a
+        >
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!--..................Footer END..................-->
+    <!-------------------JavaScript Animation--------------------------------->
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <script src="/js/contactJs.js"></script>
+    <script src="/js/formTR.js"></script>
+    <script src="/js/header.js"></script>
+  </body>
+</html>

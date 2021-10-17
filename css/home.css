@@ -22,6 +22,7 @@
   padding: 50px;
   text-align: center;
   flex-direction: column;
+  justify-content: center;
 }
 
 .leftBanner h1 {
@@ -57,7 +58,7 @@
   font-family: inherit;
 }
 .leftBanner button.learn-moreBa {
-  width: 12rem;
+  width: 17rem;
   height: auto;
 }
 .leftBanner button.learn-moreBa .circleBa {
@@ -234,6 +235,7 @@
 }
 .w3-container {
   width: 75%;
+  border-radius: 30px;
 }
 
 .leftAbout {
