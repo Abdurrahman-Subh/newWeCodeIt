@@ -561,7 +561,7 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 568px) {
   .galleryPro {
     grid-template-columns: repeat(3, 1fr);
   }
@@ -618,6 +618,7 @@
   }
   .leftBanner {
     width: 100%;
+    order: 2;
   }
   .rightBanner {
     width: 100%;
@@ -632,9 +633,6 @@
   }
   .leftBanner p {
     width: 100%;
-  }
-  .leftBanner {
-    order: 2;
   }
 }
 
