@@ -635,7 +635,7 @@
     width: 100%;
   }
 }
-@media (max-width: 368px) {
+@media (max-width: 468px) {
   .heroBanner {
     height: 250vh;
   }
