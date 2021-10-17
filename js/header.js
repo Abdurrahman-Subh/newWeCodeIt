@@ -8,7 +8,7 @@ hamburger_menu.addEventListener("click", () => {
   function myFunction(x) {
     if (x.matches && !container.classList.contains("active")) {
       // If media query matches
-      links.style.height = "8vh";
+      links.style.height = "12vh";
     } else if (container.classList.contains("active")) {
       links.style.height = "100vh";
     } else {
