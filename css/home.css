@@ -1,0 +1,490 @@
+/* header */
+/*Root Things*/
+:root {
+  --spacer: 87rem;
+  --littleSpace: 10rem;
+}
+.litFlow {
+  margin-top: var(--littleSpace);
+}
+
+/*Services Div Start*/
+.servicesDiv {
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  padding: 50px;
+  margin: 3rem auto;
+}
+.servicesDiv h1 {
+  font-size: 3rem;
+  color: #6ec1e4;
+}
+.servicesDiv h4 {
+  color: #868990;
+  font-weight: 400;
+}
+.services3Divs {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 75px;
+  gap: 1rem;
+  justify-content: center;
+}
+.services3Divs > * {
+  flex: 1 1 30%;
+}
+.leftSer {
+  background-color: #fff;
+  width: 30%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+
+  flex-direction: column;
+}
+
+.middleSer {
+  background-color: #fff;
+  width: 30%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+
+  flex-direction: column;
+}
+.rightSer {
+  background-color: #fff;
+  width: 30%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+
+  flex-direction: column;
+}
+.iconSer span {
+  background-color: #0000001a;
+  padding: 50px;
+  border-radius: 100px;
+}
+.iconSer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.descSer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.descSer p {
+  margin-top: 30px;
+  width: 80%;
+  font-size: 18px;
+}
+.viewSer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 30%;
+  font-size: 20px;
+}
+
+/*Services Div End*/
+/*About Div Start*/
+.aboutDivs {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+
+  padding: 50px;
+  color: #6ec1e4;
+}
+.w3-container {
+  width: 75%;
+}
+
+.leftAbout {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 50px;
+}
+.descAbout {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.descAbout p {
+  width: 50%;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 300;
+}
+.rightAbout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 100%;
+}
+
+/*About Div End*/
+/*Last Hero Banner*/
+.hero {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+
+  height: 100vh;
+  max-height: 620px;
+  margin: 0 auto;
+  color: #fff;
+  text-align: center;
+}
+
+.hero:after {
+  z-index: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  content: "";
+}
+
+.hero__image-wrapper {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url("/image/footerBanner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#hero__image {
+  width: auto;
+  min-width: 100%;
+  height: auto;
+  min-height: 100%;
+  object-fit: cover;
+}
+
+.hero__text {
+  z-index: 1;
+  max-width: 100%;
+  padding: 20px 5%;
+}
+
+.hero__text h1 {
+  margin: 0 0 24px;
+  font-family: "Merriweather", serif;
+  font-size: 50px;
+  line-height: 1.3;
+}
+
+.hero__text p {
+  margin: 0px 0px 40px;
+  font-family: "Lato", sans-serif;
+  font-size: 26px;
+  line-height: 1.3;
+}
+
+#hero__img-refresh {
+  padding: 14px 20px;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: #fff;
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  line-height: 1;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#hero__img-refresh:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+@media only screen and (max-width: 768px) {
+  .hero__text h1 {
+    margin: 0 0 16px;
+    font-size: 40px;
+  }
+
+  .hero__text p {
+    margin: 0px 0px 48px;
+    font-size: 22px;
+  }
+
+  #hero__img-refresh {
+    font-size: 18px;
+  }
+}
+.projectsDone {
+  display: flex;
+  width: 100%;
+  min-height: 30vh;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background: #263246;
+}
+.projects1 i {
+  color: #4999bd;
+}
+
+.projectsDone .projects1 {
+  padding-left: 100px;
+  text-align: center;
+  color: #fff;
+}
+.iconBeside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 568px) {
+  .projectsDone {
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 5rem;
+    padding: 75px;
+  }
+  .projectsDone .projects1 {
+    padding-left: 0;
+  }
+}
+/*Pricing Cards Start*/
+.myPricing {
+  margin-top: 117px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.containerP {
+  width: 1000px;
+  display: flex;
+  margin-left: 35px;
+  margin-top: 15px;
+  justify-content: space-between;
+}
+.containerP .oneM,
+.containerP .twoM,
+.containerP .threeM {
+  width: calc(950px / 3);
+  background-color: #ffffff;
+  border-radius: 7px;
+}
+.containerP header {
+  padding: 20px;
+  margin-top: 25px;
+  text-align: center;
+  font-size: 45px;
+  color: #35354a;
+}
+.containerP span {
+  font-size: 30px;
+  position: relative;
+  top: -13px;
+}
+.containerP .basicM {
+  width: 120px;
+  background: #13c8a6;
+  color: white;
+  padding: 10px;
+  border-top-right-radius: 13px;
+  border-bottom-right-radius: 13px;
+  font-size: 20px;
+  text-align: center;
+  position: relative;
+  left: -8px;
+}
+.containerP .basicM::before {
+  content: "";
+  position: absolute;
+  border-width: 4px;
+  border-style: solid;
+  border-color: transparent #10aa8c #10aa8c transparent;
+  left: 0px;
+  top: -8px;
+}
+.containerP .contentM {
+  margin-top: 30px;
+  text-align: center;
+  color: #35354a;
+}
+.containerP .contentM p:first-child {
+  line-height: 2.3;
+}
+.containerP .sendM {
+  text-align: center;
+}
+.containerP .sendM button {
+  border: none;
+  background-color: transparent;
+  padding: 15px 25px;
+  cursor: pointer;
+  color: white;
+  background-color: #13c8a6;
+  display: inline-block;
+  border-radius: 7px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  font-family: "work sans", sans-serif;
+  font-size: 15px;
+}
+/* Div Two Start  */
+.containerP .twoM {
+  position: relative;
+  top: 30px;
+}
+.containerP .twoM .basicM {
+  background-color: #efcb53;
+}
+.container .two .basic::before {
+  content: "";
+  border-color: transparent #be9a23 #be9a23 transparent;
+}
+.containerP .twoM .sendM button {
+  background-color: #efcb53;
+}
+/* Div Two End  */
+
+/* Div Three Start  */
+.containerP .threeM {
+  position: relative;
+  top: 50px;
+}
+.containerP .threeM .basicM {
+  background-color: #555fae;
+}
+.containerP .threeM .basicM::before {
+  content: "";
+  border-color: transparent #4854a7 #4854a7 transparent;
+}
+.containerP .threeM .sendM button {
+  background-color: #555fae;
+}
+/* Div Tree End  */
+@media screen and (max-width: 568px) {
+  .containerP {
+    flex-direction: column;
+    margin-bottom: 100px;
+  }
+}
+/*Pricing Cards End*/
+/*Filtered Projects Start*/
+.filteredProject {
+  margin-top: 50px;
+  width: 100vw;
+  height: 100vh;
+  padding: 50px;
+}
+.switcher {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  list-style: none;
+  width: fit-content;
+  padding: 14px 20px;
+}
+
+.switcher li {
+  border-radius: 4px;
+  padding: 10px 20px;
+  background-color: #ccc;
+  cursor: pointer;
+  transition: 0.2s linear;
+  font-size: 20px;
+  user-select: none;
+  margin: 5px;
+}
+
+.switcher li.active {
+  background-color: #4999bd;
+  color: #fff;
+}
+
+.galleryPro {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  gap: 10px;
+}
+.galleryPro div {
+  max-height: 300px;
+}
+
+@media (max-width: 991px) {
+  .galleryPro {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .galleryPro {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .servicesDiv {
+    flex-direction: column;
+  }
+  .rightSer {
+    width: 100%;
+  }
+  .middleSer {
+    width: 100%;
+  }
+  .leftSer {
+    width: 100%;
+  }
+  .leftAbout {
+    padding: 0;
+  }
+  .descAbout p {
+    width: 100%;
+    text-align: left;
+  }
+  .w3-container {
+    width: 100%;
+  }
+  .flow {
+    margin-top: var(--spacer);
+  }
+  .myPricing {
+    width: 90%;
+  }
+  .servicesDiv h1 {
+    font-size: 2rem;
+  }
+  .rightAbout {
+    display: none;
+  }
+  .switcher li {
+    display: flex;
+    flex: 1 1 10em;
+    justify-content: center;
+  }
+  .galleryPro {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
+
+.galleryPro div img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/*Filtered Projects End*/
