@@ -5,6 +5,9 @@
   text-decoration: none;
   box-sizing: border-box;
 }
+html {
+  scroll-behavior: smooth;
+}
 /* body */
 body {
   background: #212529;
@@ -36,7 +39,6 @@ footer img {
 }
 .Socialmedia-icons {
   font-size: 18px;
-  
 }
 .btn-outline-light:hover {
   background-color: #4e54c8;
