@@ -614,7 +614,7 @@
   }
   .heroBanner {
     flex-direction: column;
-    height: 120vh;
+    height: 150vh;
   }
   .leftBanner {
     width: 100%;
