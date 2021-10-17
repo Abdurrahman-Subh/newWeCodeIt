@@ -561,7 +561,7 @@
   }
 }
 
-@media (max-width: 568px) {
+@media (max-width: 768px) {
   .galleryPro {
     grid-template-columns: repeat(3, 1fr);
   }
