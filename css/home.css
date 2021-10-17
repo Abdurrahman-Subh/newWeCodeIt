@@ -169,7 +169,7 @@
   height: 500px;
   display: flex;
   justify-content: center;
-
+  border-radius: 15px 50px 30px;
   flex-direction: column;
 }
 
@@ -179,7 +179,7 @@
   height: 500px;
   display: flex;
   justify-content: center;
-
+  border-radius: 15px 50px 30px;
   flex-direction: column;
 }
 .rightSer {
@@ -188,7 +188,7 @@
   height: 500px;
   display: flex;
   justify-content: center;
-
+  border-radius: 15px 50px 30px;
   flex-direction: column;
 }
 .iconSer span {

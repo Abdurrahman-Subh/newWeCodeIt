@@ -377,7 +377,7 @@ footer img {
   border-radius: 30px;
 }
 .linksM li:hover {
-  box-shadow: 10px 10px 49px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 50px 10px rgba(255, 255, 255, 0.75);
   animation: grow 30s linear 10ms infinite;
 }
 @keyframes grow {
