@@ -635,7 +635,7 @@
     width: 100%;
   }
 }
-@media only screen and (min-device-width: 320px) and (max-device-width: 390px) {
+@media only screen and (min-device-width: 620px) and (max-device-width: 760px) {
   .heroBanner {
     height: 250vh;
   }
