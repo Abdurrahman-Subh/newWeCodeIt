@@ -614,7 +614,7 @@
   }
   .heroBanner {
     flex-direction: column;
-    height: 120vh;
+    height: 140vh;
   }
   .leftBanner {
     width: 100%;
@@ -635,11 +635,11 @@
     width: 100%;
   }
 }
-@media only screen and (max-width: 650px) and (min-width: 600px) {
+/* @media only screen and (max-width: 650px) and (min-width: 600px) {
   .heroBanner {
     height: 250vh;
   }
-}
+} */
 
 .galleryPro div img {
   width: 100%;
