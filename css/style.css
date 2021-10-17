@@ -44,6 +44,7 @@ footer img {
 }
 .list-unstyled li {
   width: 111%;
+  color: #4999bd;
 }
 .footer-edit {
   display: flex;
