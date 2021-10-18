@@ -3,13 +3,21 @@
   --spacer: 80rem;
   --littleSpace: 8rem;
   --rem20: 20rem;
+  --backGround: radial-gradient(ellipse at bottom, #66c4ff 0%, #007ecc 75%);
 }
 .litFlow {
   margin-top: var(--littleSpace);
 }
+.littleSpace {
+  margin-top: var(--littleSpace);
+}
+.Mybg {
+  background-image: var(--backGround);
+  width: 100%;
+}
+
 /*Start Header */
 .heroBanner {
-  background-image: radial-gradient(ellipse at bottom, #66c4ff 0%, #007ecc 75%);
   width: 100vw;
   height: 85vh;
   display: flex;
