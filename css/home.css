@@ -11,6 +11,9 @@
 .littleSpace {
   margin-top: var(--littleSpace);
 }
+.rem20 {
+  margin-top: var(--rem20);
+}
 .Mybg {
   background-image: var(--HerobackGround);
   width: 100%;
@@ -657,3 +660,163 @@
   object-fit: cover;
 }
 /*Filtered Projects End*/
+/*Testo Start*/
+/* @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap"); */
+
+/* Flexbox Grid */
+/* .eRowT {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+[class*="eColT"],
+[class*="eColT"].emptyT {
+  background-color: #343436;
+  border: 1px solid #666;
+  display: flex;
+  flex-direction: column;
+  margin: 0.25rem 0;
+  padding: 1em;
+}
+[class*="eColT"] {
+  flex-basis: auto;
+}
+/* align horizontal | vertical | horizontal+vertical */
+/* [class*="eColT"].align-horT {
+  align-items: center;
+  display: flex;
+}
+[class*="eCol"].align-verT {
+  display: flex;
+  justify-content: center;
+}
+[class*="eCol"].align-hor-verT {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+/* align right | right+vertical */
+[class*="eColT"].align-riT {
+  align-items: flex-end;
+  display: flex;
+}
+[class*="eColT"].align-ri-verT {
+  align-items: flex-end;
+  display: flex;
+  justify-content: center;
+}
+/* empty column (Placeholder column) */
+[class*="eColT"].emptyT {
+  background-color: transparent;
+  border-color: transparent;
+}
+[class*="eColT"].emptyT:before {
+  content: "\00A0"; /* NON-BREAKING SPACE */
+  position: relative;
+}
+
+@media screen and (min-width: 800px) {
+  .eRowT {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+  [class*="eColT"] {
+    flex: 1;
+  }
+  [class*="eCol-25T"] {
+    flex: 2.5;
+  }
+  [class*="eCol-50T"] {
+    flex: 5;
+  }
+  [class*="eCol-75T"] {
+    flex: 7.5;
+  }
+}
+/* ↑ Do not modify code above it ↑ */
+
+.wrapperT {
+  max-width: 1200px;
+}
+.mainT {
+  margin: 0 auto;
+  max-width: 1200px;
+  color: #fff;
+}
+.h1T {
+  font-size: 2.5rem;
+  margin: 1em 0 0;
+  text-align: center;
+}
+.h2T {
+  font-size: 2rem;
+  margin: 0;
+}
+.h3T,
+.h4T,
+.h5T,
+.h6T {
+  margin: 2em 0 0;
+}
+.pT {
+  margin: 0.5em 0 0;
+}
+
+/* Example Design */
+/* [class*="eColT"] {
+  background-color: transparent;
+  border: 0px solid transparent;
+  text-align: justify;
+}
+.eRowT[class*="gradientT"] {
+  align-items: center;
+  padding: 0;
+}
+.eRowT.gradientT {
+  background: linear-gradient(180deg, #9e9e9e 66%, transparent 66%);
+}
+.eRowT.gradient-riT {
+  background: linear-gradient(0deg, #9e9e9e 66%, transparent 66%);
+}
+.eRowT[class*="gradientT"] img {
+  border: 1rem solid #eeeeee;
+  border-radius: 4px;
+  display: flex;
+  align-self: center;
+  max-width: 90%;
+}
+[class*="eColT"],
+[class*="eColT"].empty {
+  padding: 0.25em 1em;
+}
+[class*="eCoT"].empty:before {
+  display: none;
+}
+
+@media screen and (min-width: 800px) {
+  .eRowT[class*="gradientT"] {
+    align-items: normal;
+    border-radius: 50%; /* optional */
+/* padding: 2em 0;
+  }
+  .eRowT.gradientT {
+    background: linear-gradient(90deg, #9e9e9e 66%, transparent 66%);
+  }
+  .eRowT.gradient-riT {
+    background: linear-gradient(270deg, #9e9e9e 66%, transparent 66%);
+  }
+  .eRowT[class*="gradientT"] img {
+    max-width: 100%;
+  }
+  [class*="eColT"],
+  [class*="eColT"].emptyT {
+    padding: 1em;
+  }
+  [class*="eColT"].emptyT:before {
+    content: "\00A0"; /* NON-BREAKING SPACE */
+/* display: flex;
+  } */
+/* }    */
+
+/*Testo End*/
